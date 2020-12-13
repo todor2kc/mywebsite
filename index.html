@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Restaurant in the city</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Top bar-->
+
+<div class="top-bar">
+    <div class="container">
+        <div class="col-12 text-right">
+            <p><a href="tel:+381333">Call us here!</a></p>
+        </div>
+    </div>
+</div>
+
+<!--Navigation-->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container">
+    <a class="navbar-brand" href="index.html"><img src="Food pic/logo-restaurant.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#slides">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#text">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#C1">Connect</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+
+<!-- Slider -->
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+</ul>
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="Food pic/header-1.jpg">
+        <div class="carousel-caption">
+            <h1 class="dispay-2">Best organic food</h1>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='#C1'" >Order here</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="Food pic/header-2.jpg">
+        <div class="carousel-caption">
+            <h1 class="dispay-2">Best pasta in town</h1>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='#C1'" >Order here</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="Food pic/header-3.jpg">
+        <div class="carousel-caption">
+            <h1 class="dispay-2">Homemade cheese</h1>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='#C1'" >Order here</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Galery -->
+
+<div class="row-outer" id="gallery">
+    <div class="container">
+        <br>
+        <div class="heading"><h1>Christmas offer</h1></div>
+        <br>
+        <div class="grid-gallery">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Some texy section -->
+
+<div class="container fluid padding">
+<div class="row welcome text-center">
+    <div class="col-12" id="text">
+        <br>
+        <h1 class="dispay-4">Special pizza offer</h1>
+    </div>
+    <hr>
+    <div class="col-12">
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, inventore perspiciatis qui numquam quam praesentium nisi incidunt in deleniti nulla veniam placeat, recusandae a deserunt ab, culpa rerum consectetur earum!</p>
+    </div>
+</div>
+</div>
+
+<!-- Three picture section -->
+
+<div class="container">
+<div class="container-fluid padding">
+<div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <img src="Food pic/pica krug 2.png" alt="pizza" class="img-fluid">
+        <h3>Pizza offer one</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aliquam.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <img src="Food pic/pica krug 2.png" alt="pizza" class="img-fluid">
+        <h3>Pizza offer two</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aliquam.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <img src="Food pic/pica krug 2.png" alt="pizza" class="img-fluid">
+        <h3>Pizza offer three</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, aliquam.</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Two column section-->
+
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-lg-6">
+            <h2>Some heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati ut exercitationem, sapiente placeat ab amet, molestias dolorem vel eaque voluptas inventore. Iure odio quibusdam veniam rem, quis ipsa est voluptates voluptas recusandae minima, assumenda quidem harum. Aspernatur facere animi alias nostrum qui fugit velit non at vitae nemo nisi asperiores culpa, ab dolorum, quidem sapiente odio. Consequatur quibusdam eaque ducimus labore vel, maxime eligendi praesentium, omnis dolor porro eum, iste vero natus quisquam nesciunt atque aut deleniti sequi. Porro sapiente itaque, ipsum enim explicabo quia adipisci dolorem laudantium debitis sit nesciunt officiis dolor dolorum recusandae accusantium quo hic culpa. Necessitatibus ut asperiores dolorem, neque, nulla eligendi exercitationem sint, quaerat numquam dicta fugiat quia unde amet! Iste dicta, culpa quos et odio ea placeat alias, sint quasi voluptas non totam minus quod illo unde error earum voluptatem sed. Perferendis laborum magnam consequatur magni accusamus non soluta, inventore temporibus aliquam ex?</p>
+        </div>
+
+        <div class="col-lg-6">
+            <img src="Food pic/pasta 640.jpg" alt="pasta" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+<!--Form section-->
+
+<!--Section: Contact v.2-->
+<div class="container" id="C1">
+<section class="mb-4">
+
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-12">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                <!--Grid column text field-->
+                <div class="col-lg-6">
+
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="7" class="form-control md-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                </div>
+
+                <!--Grid column-->
+                <div class="col-lg-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your name</label>
+                    </div>
+                    <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your surname</label>
+                    </div>
+                    <div class="md-form mb-0">
+                    <input type="text" id="name" name="name" class="form-control">
+                    <label for="name" class="">Your title</label>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                
+            </div>
+
+
+        </form>
+
+        <div class="text-center text-md-right">
+            <a class="btn btn-primary" id="C2" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
+    </div>
+
+    <div class="col-md-3 text-center">
+        <ul class="list-unstyled mb-0">
+
+        </ul>
+    </div>
+
+</div>
+</div>
+</div>
+
+</section>
+
+
+    <!--Footer-->
+
+<footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+    <div class="col-md-4">
+        <hr class="light">
+        <p>Contact information</p>
+        <hr class="light">
+        <p>018-999-459</p>
+        <p>email@email.com</p>
+        <p>100 City Name Adress</p>
+        <p>City, Country</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <p>Working hours</p>
+        <hr class="light">
+        <p>Monday: 9am - 5pm</p>
+        <p>Saturday: 10am - 4pm</p>
+        <p>Sunday: Closed</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <p>Our restaurants</p>
+        <hr class="light">
+        <p>Location City one</p>
+        <p>Location City two</p>
+        <p>Location City three</p>
+    </div>
+    <div class="col-12">
+        <hr class="light">
+        <p>&copy; email@email.com</p>
+    </div>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>
